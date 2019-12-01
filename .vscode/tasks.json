@@ -1,0 +1,42 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "ft_printf.c",
+                "main.c",
+                "libft/libft.a",
+                "ft_itoa_base.c",
+                "ft_atoi_parser.c",
+                "ft_strndup.c",
+                "ft_long_itoa.c",
+                "format_percent.c",
+                "format_upper_hex.c",
+                "format_hex.c",
+                "format_unsigned_int.c",
+                "format_oct.c",
+                "format_int.c",
+                "format_pointer.c",
+                "format_char.c",
+                "format_str.c",
+                "format_float.c",
+                "ft_write_buffer.c",
+                "ft_putstr_buffer.c",
+                "ft_putchar_buffer.c"
+
+
+
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
