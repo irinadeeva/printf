@@ -6,13 +6,28 @@
 /*   By: bhugo <bhugo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 19:11:12 by bhugo             #+#    #+#             */
-/*   Updated: 2019/11/20 18:19:45 by bhugo            ###   ########.fr       */
+/*   Updated: 2019/12/11 18:58:42 by bhugo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_print.h"
 
-char	*ft_long_itoa(long n)
+static int	order(long n)
+{
+	int		order;
+
+	order = 0;
+	if (n == 0)
+		return (1);
+	while (n)
+	{
+		n = n / 10;
+		order++;
+	}
+	return (order);
+}
+
+char		*ft_long_itoa(long n)
 {
 	char	*s;
 	long	nb;
@@ -20,14 +35,10 @@ char	*ft_long_itoa(long n)
 
 	if (n == LONG_MIN)
 		return (ft_strdup("-9223372036854775808"));
-	len = 1;
+	len = 0;
 	n < 0 ? ++len : 0;
 	nb = n < 0 ? -n : n;
-	while (nb > 9)
-	{
-		nb /= 10;
-		++len;
-	}
+	len = len + order(n);
 	if ((s = (char*)malloc(sizeof(char) * (len + 1))) == NULL)
 		return (NULL);
 	s[len] = '\0';

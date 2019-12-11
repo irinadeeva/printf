@@ -6,7 +6,7 @@
 /*   By: bhugo <bhugo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 19:11:35 by bhugo             #+#    #+#             */
-/*   Updated: 2019/11/20 20:43:05 by bhugo            ###   ########.fr       */
+/*   Updated: 2019/12/11 20:26:05 by bhugo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,5 +65,8 @@ void			print_int(char *s, t_printf *p);
 int				write_buffer(char *s, int end, t_printf *p);
 void			ft_putchar_buffer(char c, t_printf *p);
 void			ft_putstr_buffer(char const *s, t_printf *p);
+void			print_int(char *s, t_printf *p);
+void			print_oct(char *s, t_printf *p);
+int				free_memory(char **s);
 
 #endif
