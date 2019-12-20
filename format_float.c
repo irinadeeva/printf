@@ -6,7 +6,7 @@
 /*   By: edestiny <edestiny@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/18 12:21:19 by bhugo             #+#    #+#             */
-/*   Updated: 2019/12/20 22:49:21 by edestiny         ###   ########.fr       */
+/*   Updated: 2019/12/20 23:20:06 by edestiny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,16 @@ typedef union 			print_double
 	
 }						s_print_double;
 
+void ft_pow(int pow)
+{
+    size_t var = 2;
+
+    for (int i = 2; i<=pow; i++)
+    {
+        var *= 2;
+        printf("%zu\n", var);
+    }
+}
 
 int main()
 {
@@ -58,7 +68,9 @@ int main()
     }
     printf("%c", '\n');
     for (int i = 0; i < 64; i++)
-        printf("%lli\n", arr[i]2);
+        printf("%lli ", arr[i]);
         
+    printf("%c", '\n');
+    ft_pow(64);
 	return 0;	
 }
