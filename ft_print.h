@@ -6,7 +6,7 @@
 /*   By: bhugo <bhugo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 19:11:35 by bhugo             #+#    #+#             */
-/*   Updated: 2019/12/11 20:26:05 by bhugo            ###   ########.fr       */
+/*   Updated: 2019/12/22 18:03:26 by bhugo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,8 @@ void			ft_putstr_buffer(char const *s, t_printf *p);
 void			print_int(char *s, t_printf *p);
 void			print_oct(char *s, t_printf *p);
 int				free_memory(char **s);
+void			print_str(char *s, t_printf *p);
+char			*long_double_trouble(long double *n, int pre, char *dubstr);
+char			*double_trouble(double *n, int pre, char *dubstr);
 
 #endif
