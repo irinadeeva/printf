@@ -35,6 +35,13 @@ SRCS = 	ft_printf.c\
 		print_oux.c\
 		print_alignment.c\
 		free_memory.c\
+		divf.c\
+		double.c\
+		long.c\
+		multf.c\
+		round.c\
+		ten_pow.c\
+		write_flo.c\
 
 
 OBJS = 	ft_printf.o \
@@ -59,6 +66,15 @@ OBJS = 	ft_printf.o \
 		print_oux.o\
 		print_alignment.o\
 		free_memory.o\
+		divf.o\
+		double.o\
+		long.o\
+		multf.o\
+		round.o\
+		ten_pow.o\
+		write_flo.o\
+
+
 
 FLAGS = -Wall -Wextra -Werror
 

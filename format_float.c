@@ -6,7 +6,7 @@
 /*   By: bhugo <bhugo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/18 12:21:19 by bhugo             #+#    #+#             */
-/*   Updated: 2019/12/22 18:44:07 by bhugo            ###   ########.fr       */
+/*   Updated: 2019/12/22 21:18:50 by bhugo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,23 @@ int		format_float(t_printf *p)
 {
 	long double	n;
 	double		f;
-	static char float2str[1076];
-	static char long2str[16447];
+	char 		*float2str;
+	char 		*long2str;
 
+	p->precision < 0 || p->precision > LON_LEN ? p->precision = DEF_PRE : 0;
 	if (p->length_capital_l == 1)
 	{
 		n = va_arg(p->arg_ptr, long double);
+		if(!(long2str = (char*)malloc(sizeof(char) * (LON_LEN))))
+			exit(-1);
 		long_double_trouble(&n, p->precision, long2str);
 		print_float(long2str, p);
 	}
 	else
 	{
 		f = va_arg(p->arg_ptr, double);
+		if(!(float2str = (char*)malloc(sizeof(char) * (DUB_LEN))))
+			exit(-1);
 		double_trouble(&f, p->precision, float2str);
 		print_float(float2str, p);
 	}

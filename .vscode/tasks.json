@@ -28,10 +28,19 @@
                 "format_float.c",
                 "ft_write_buffer.c",
                 "ft_putstr_buffer.c",
-                "ft_putchar_buffer.c"
-
-
-
+                "ft_putchar_buffer.c",
+                "print_int.c",
+		        "print_oux.c",
+		        "print_alignment.c",
+        		"free_memory.c",
+                "divf.c",
+                "double.c",
+                "long.c",
+                "multf.c",
+                "round.c",
+                "ten_pow.c",
+                "write_flo.c",
+                "main.c"
             ],
             "group": {
                 "kind": "build",

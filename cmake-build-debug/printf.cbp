@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="printf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bhugo/Desktop/printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/bhugo/Desktop/printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bhugo/Desktop/printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printf">
+				<Option output="/Users/bhugo/Desktop/printf/cmake-build-debug/printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bhugo/Desktop/printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bhugo/Desktop/printf/."/>
+					<Add directory="/Users/bhugo/Desktop/printf/libft"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 printf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printf/fast">
+				<Option output="/Users/bhugo/Desktop/printf/cmake-build-debug/printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bhugo/Desktop/printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bhugo/Desktop/printf/."/>
+					<Add directory="/Users/bhugo/Desktop/printf/libft"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 printf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bhugo/Desktop/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bhugo/Desktop/printf/divf.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/double.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_char.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_float.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_hex.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_int.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_oct.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_percent.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_pointer.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_str.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_unsigned_int.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/format_upper_hex.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/free_memory.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_atoi_parser.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_itoa_base.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_long_itoa.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_print.h">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_printf.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_putchar_buffer.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_putstr_buffer.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_strndup.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ft_write_buffer.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_atoi.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_bzero.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_isalnum.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_isalpha.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_isascii.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_isdigit.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_islower.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_isprint.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_isspace.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_issymbol.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_isupper.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_itoa.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_lstadd.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_lstdel.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_lstdelone.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_lstiter.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_lstmap.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_lstnew.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_massive_free.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_memalloc.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_memccpy.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_memchr.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_memcmp.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_memcpy.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_memdel.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_memmove.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_memset.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_overflow_check.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_putchar.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_putchar_fd.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_putendl.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_putendl_fd.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_putnbr.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_putnbr_fd.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_putstr.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_putstr_fd.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strcat.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strchr.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strclr.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strcmp.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strcpy.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strdel.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strdup.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strequ.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_striter.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_striteri.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strjoin.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strlcat.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strlen.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strmap.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strmapi.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strncat.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strncmp.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strncpy.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strnequ.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strnew.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strnstr.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strrchr.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strsplit.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strstr.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strsub.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_strtrim.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_tolower.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/ft_toupper.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/libft/libft.h">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/long.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/main.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/multf.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/print_alignment.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/print_int.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/print_oux.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/round.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/ten_pow.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/write_flo.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/bhugo/Desktop/printf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
