@@ -6,18 +6,74 @@
 /*   By: bhugo <bhugo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/18 12:21:19 by bhugo             #+#    #+#             */
-/*   Updated: 2019/12/22 21:18:50 by bhugo            ###   ########.fr       */
+/*   Updated: 2019/12/22 23:24:02 by bhugo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_print.h"
 
+void	print_str_float(char *s, t_printf *p)
+{
+	int sign;
+	int i;
+
+	i = 0;
+	sign = check_sign(&s, p);
+
+	if (p->flag_minus == 1)
+	{
+		printf_sign(p, sign);
+		while (s[i] != '\0')
+			write_buffer(&s[i++], 0, p);
+		printf_width(s, p, sign);
+	}
+	else
+	{
+		printf_width(s, p, sign);
+		printf_sign(p, sign);
+		while (s[i] != '\0')
+			write_buffer(&s[i++], 0, p);
+	}
+	free(s);
+}
+
+void	print_float2(char *s, t_printf *p)
+{
+	int sign;
+	int i;
+
+	i = 0;
+	sign = check_sign(&s, p);
+	if (p->flag_zero == 1)
+		printf_order(s, p, i, sign);
+	else if (p->flag_minus == 1)
+	{
+		printf_sign(p, sign);
+		while (s[i] != '\0')
+			write_buffer(&s[i++], 0, p);
+		printf_width(s, p, sign);
+	}
+	else
+	{
+		printf_width(s, p, sign);
+		printf_sign(p, sign);
+		while (s[i] != '\0')
+			write_buffer(&s[i++], 0, p);
+	}
+	free(s);
+}
+
 void	print_float(char *s, t_printf *p)
 {
 	if (ft_isdigit(s[1]) == 0)
-		print_str(s, p);
+	{
+		p->flag_zero = 0;
+		s[0] == 'n' ? p->flag_plus = 0 : 0;
+		s[0] == 'n' ? p->flag_space = 0 : 0;
+		print_str_float(s, p);
+	}
 	else
-		print_int(s, p);
+		print_float2(s, p);
 }
 
 int		format_float(t_printf *p)

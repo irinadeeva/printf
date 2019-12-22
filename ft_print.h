@@ -6,7 +6,7 @@
 /*   By: bhugo <bhugo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/15 19:11:35 by bhugo             #+#    #+#             */
-/*   Updated: 2019/12/22 21:09:39 by bhugo            ###   ########.fr       */
+/*   Updated: 2019/12/22 23:09:41 by bhugo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -149,5 +149,7 @@ int					free_memory(char **s);
 void				print_str(char *s, t_printf *p);
 char				*long_double_trouble(long double *n, int pre, char *dubstr);
 char				*double_trouble(double *n, int pre, char *dubstr);
+void				printf_sign(t_printf *p, int sign);
+void				printf_order(char *s, t_printf *p, int i, int sign);
 
 #endif

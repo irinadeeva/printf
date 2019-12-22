@@ -17,22 +17,17 @@
 
 int main(void)
 {
-    printf("%.f\n", 989.9999999);
-    ft_printf("%.f\n", 989.9999999);
+    printf("first\n");
+    printf("%+.f\n", 0.);
+    ft_printf("%+.f\n", 0.);
 
-    printf("%1f\n", 989.9999999);
-    ft_printf("%1f\n", 989.9999999);
+    printf("\nsecond\n");
+    printf("% .f\n", 0.);
+    ft_printf("% .f\n", 0.);
 
-    printf("%2f\n", 989.9999999);
-    ft_printf("%2f\n", 989.9999999);
+    printf("\nthird\n");
+    printf("%# -6.f\n", 42.0);
+    ft_printf("%#.1f\n", 42.0);
 
-    printf("%5f\n", 989.9999999);
-    ft_printf("%5f\n", 989.9999999);
-
-    printf("%12f\n", 989.9999999);
-    ft_printf("%12f\n", 989.9999999);
-
-    printf("%99f\n", 989.9999999);
-    ft_printf("%99f\n", 989.9999999);
     return (0);
 }
