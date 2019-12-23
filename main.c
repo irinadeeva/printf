@@ -17,17 +17,29 @@
 
 int main(void)
 {
-    printf("first\n");
-    printf("%+.f\n", 0.);
-    ft_printf("%+.f\n", 0.);
+    printf("\nsecond\n");
+    printf("%#.f\n", -0.);
+    ft_printf("%#.f\n", -0.);
+
+    printf("\nfirst\n");
+    printf("%.f\n", -0.);
+    ft_printf("%.f\n", -0.);
 
     printf("\nsecond\n");
-    printf("% .f\n", 0.);
-    ft_printf("% .f\n", 0.);
+    printf("%-.f\n", -0.);
+    ft_printf("%-.f\n", -0.);
 
     printf("\nthird\n");
-    printf("%# -6.f\n", 42.0);
-    ft_printf("%#.1f\n", 42.0);
+    printf("%+.f\n", -0.);
+    ft_printf("%+.f\n", -0.);
+
+    printf("first\n");
+    printf("% .f\n", -0.);
+    ft_printf("% .f\n", -0.);
+
+    printf("\nthird\n");
+    printf("%0.f\n", -0.);
+    ft_printf("%0.f\n", -0.);
 
     return (0);
 }

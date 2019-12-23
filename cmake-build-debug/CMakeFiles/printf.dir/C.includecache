@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/bhugo/Desktop/printf/format_float.c
+ft_print.h
+/Users/bhugo/Desktop/printf/ft_print.h
+
 /Users/bhugo/Desktop/printf/ft_print.h
 stdarg.h
 -
@@ -20,13 +24,5 @@ string.h
 stdlib.h
 -
 unistd.h
--
-
-/Users/bhugo/Desktop/printf/main.c
-ft_print.h
-/Users/bhugo/Desktop/printf/ft_print.h
-stdio.h
--
-math.h
 -
 

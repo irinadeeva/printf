@@ -6,7 +6,7 @@
 /*   By: bhugo <bhugo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/18 12:21:19 by bhugo             #+#    #+#             */
-/*   Updated: 2019/12/22 23:24:02 by bhugo            ###   ########.fr       */
+/*   Updated: 2019/12/23 11:03:03 by bhugo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,18 @@ void	print_str_float(char *s, t_printf *p)
 	free(s);
 }
 
+
+void check_point(char **s, t_printf *p)
+{
+	char *tmp;
+	
+	if (p->flag_hash == 1 && p->precision == 0)
+	{
+		tmp = *s;
+		*s = ft_strjoin(tmp, ".");
+	}
+}
+
 void	print_float2(char *s, t_printf *p)
 {
 	int sign;
@@ -44,6 +56,7 @@ void	print_float2(char *s, t_printf *p)
 
 	i = 0;
 	sign = check_sign(&s, p);
+	check_point(&s, p);
 	if (p->flag_zero == 1)
 		printf_order(s, p, i, sign);
 	else if (p->flag_minus == 1)
@@ -65,7 +78,7 @@ void	print_float2(char *s, t_printf *p)
 
 void	print_float(char *s, t_printf *p)
 {
-	if (ft_isdigit(s[1]) == 0)
+	if ((ft_isdigit(*s) == 0 && *s != '-') || (ft_isdigit(*(s + 1)) == 0 && *s == '-' ))
 	{
 		p->flag_zero = 0;
 		s[0] == 'n' ? p->flag_plus = 0 : 0;
